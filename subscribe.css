@@ -1,0 +1,76 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3a405a;
+  color: #f5f5f5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header.main-header {
+  margin: auto;
+  max-width: 768px;
+  border-bottom: 0.25rem solid #f56566;
+  text-align: center;
+}
+header.main-header .title-link {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+main {
+  margin: auto;
+  margin-bottom: 5rem;
+  max-width: 768px;
+}
+main .subscribe-title {
+  text-align: center;
+}
+main .notice-title {
+  text-align: center;
+}
+main .notice-list {
+  padding-right: 1rem;
+}
+main .notice-list > li {
+  margin-top: 0.5rem;
+}
+main .notice-list a {
+  color: #a7bef0;
+  text-decoration: underline;
+}
+main .pay-btn-container {
+  display: flex;
+  flex-flow: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+main .pay-btn-container .pay-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  min-height: 2rem;
+  max-width: 9rem;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  flex: 1 1 0;
+}
+main .pay-btn-container .pay-btn:hover {
+  background-color: #112e7e;
+}
+@media (min-width: 768px) {
+  main .pay-btn-container .pay-btn {
+    max-width: 10rem;
+  }
+}/*# sourceMappingURL=subscribe.css.map */
