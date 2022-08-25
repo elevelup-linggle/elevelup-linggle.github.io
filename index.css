@@ -17,141 +17,14 @@ header.main-header {
 }
 
 main {
-  margin: auto;
-  margin-bottom: 5rem;
-  max-width: 768px;
-}
-main #productions {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 768px;
-}
-main #productions .promotion {
-  font-weight: bolder;
-}
-@media (min-width: 768px) {
-  main #productions .promotion {
-    font-size: 1.5rem;
-  }
-}
-main #productions .production-card {
-  max-width: 100%;
-  background-color: rgba(245, 245, 245, 0.25);
-  padding: 0.75rem;
-  border-radius: 0.15rem;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
-}
-main #productions .production-card .production-card-cover {
-  max-width: 100%;
-  height: auto;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-}
-main #productions .production-card .button-container {
-  display: flex;
-  flex-flow: column;
-  align-items: flex-end;
-  gap: 0.75rem;
-}
-@media (min-width: 768px) {
-  main #productions .production-card .button-container {
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-main #productions .production-card .button-container .btn {
-  background-color: #008000;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0.4rem 0.6rem;
-  border-radius: 0.25rem;
-  white-space: nowrap;
-}
-main #productions .production-card .button-container .btn:hover {
-  background-color: #004d00;
-}
-main #productions .production-card .button-container .linggle-read-trail {
-  background-color: #3333dd;
-}
-main #productions .production-card .button-container .linggle-read-trail:hover {
-  background-color: #161691;
-}
-main #productions .production-card .button-container .buy {
-  background-color: rgba(255, 255, 255, 0.25);
-  padding: 0.6rem 0.6rem;
-  padding-bottom: 0.8rem;
-  border-radius: 0.25rem;
-}
-main #productions .production-card .button-container .buy .price {
+  margin: 2rem;
+  text-align: center;
   font-size: 1.5rem;
 }
-main #productions .feature-card {
-  max-width: 100%;
-  background-color: rgba(245, 245, 245, 0.25);
-  padding: 0.75rem;
-  border-radius: 0.15rem;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
-}
-main #productions .feature-card .production-card-cover {
-  max-width: 100%;
-  height: auto;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-}
-main #linggle-read-features > h1 {
-  margin-top: 2.5rem;
-  text-align: center;
-}
-main #linggle-read-features > .feature-block {
-  display: flex;
-  flex-flow: column;
-  padding: 1rem;
-}
-@media (min-width: 768px) {
-  main #linggle-read-features > .feature-block {
-    flex-flow: row;
-  }
-}
-main #linggle-read-features > .feature-block.disabled-feature {
-  display: none;
-}
-main #linggle-read-features > .feature-block img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
-}
-@media (min-width: 768px) {
-  main #linggle-read-features > .feature-block img {
-    max-width: 16rem;
-    margin-left: 2rem;
-  }
-}
-main #contact {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
 
-.linggle-read-link {
-  color: #ffbe42;
-  text-decoration: none;
+a {
+  color: #87ceeb;
 }
-
-.linggle-read-link:hover {
-  color: #ffc558;
-  text-decoration: underline;
-}
-
-.payment-link {
-  color: #ffbe42;
-  text-decoration: none;
-}
-
-.payment-link:hover {
-  color: #ffc558;
-  text-decoration: underline;
+a:hover {
+  color: #add8e6;
 }/*# sourceMappingURL=index.css.map */
